@@ -1,4 +1,4 @@
-update=Dimanche 20 novembre 2016 'à' 22:52:15
+update=Fri 25 Nov 2016 03:04:11 PM CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=test
+LibName30=libs/AMS1117-3.3
