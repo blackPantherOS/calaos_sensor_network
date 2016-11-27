@@ -3,9 +3,9 @@
   (general
     (links 32)
     (no_connects 32)
-    (area 0 0 0 0)
+    (area 109.80396 75.84508 165.465472 113.247321)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 1)
     (tracks 0)
     (zones 0)
     (modules 15)
@@ -639,5 +639,7 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 0 0) (end 100 0) (angle 90) (layer Edge.Cuts) (width 0.15))
 
 )
