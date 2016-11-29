@@ -1,4 +1,4 @@
-update=2016 November 27, Sunday 15:41:20
+update=29.11.2016 09:30:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,14 @@ LibName28=contrib
 LibName29=valves
 LibName30=libs/AMS1117-3.3
 LibName31=libs/FT232RL
+LibName32=libs/w_analog
+LibName33=libs/mysensors_symbols-master/mysensors_arduino
+LibName34=libs/mysensors_symbols-master/mysensors_connectors
+LibName35=libs/mysensors_symbols-master/mysensors_logic
+LibName36=libs/mysensors_symbols-master/mysensors_mcu
+LibName37=libs/mysensors_symbols-master/mysensors_memories
+LibName38=libs/mysensors_symbols-master/mysensors_network
+LibName39=libs/mysensors_symbols-master/mysensors_radios
+LibName40=libs/mysensors_symbols-master/mysensors_regulators
+LibName41=libs/mysensors_symbols-master/mysensors_security
+LibName42=libs/mysensors_symbols-master/mysensors_sensors
