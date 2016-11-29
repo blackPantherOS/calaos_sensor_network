@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name calaos_mysensors_gateway)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)\\libs\\footprints.pretty")(options "")(descr ""))
 )
