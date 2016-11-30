@@ -1,4 +1,4 @@
-update=Jeudi 24 novembre 2016 'à' 17:41:20
+update=Mardi 29 novembre 2016 'à' 23:16:55
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=hdc1080
 LibName31=atsha204a
 LibName32=ncp1402
 LibName33=tpl5110
+LibName34=/Users/nicolasaguirre/Dev/kicad-libraries/tinkerforge
