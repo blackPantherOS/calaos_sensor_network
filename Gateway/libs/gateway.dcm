@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN4
+D Bornier a vis 4x
+$ENDCMP
+#
+$CMP CONN6
+D Bornier a vis 6x
+K connector
+$ENDCMP
+#
+#End Doc Library

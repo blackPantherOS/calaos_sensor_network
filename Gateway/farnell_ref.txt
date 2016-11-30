@@ -1,0 +1,84 @@
+Connecteur femele a souder 8 contact
+http://fr.farnell.com/amphenol/t821108a1s100ceu/embase-vertical-2-54mm-8voies/dp/2215303
+
+Connecteur male 8 contact pour nappe
+http://fr.farnell.com/amphenol/t812108a101ceu/femelle-idc-anti-traction-2-54mm/dp/2215246
+
+Cable nappe:
+http://fr.farnell.com/3m/3365-08/cable-en-nappe-8-voies-au-metre/dp/2064504
+
+Boitier 2M rail din
+http://fr.farnell.com/multicomp/mc001141/boite-dinrail-module-abs-pc-gris/dp/2544972?MER=bn_search_1TP_SearchNB_2
+
+Bornier 6x et 4x
+http://fr.farnell.com/multicomp/mc000038/bornier-ci-noir-5-08mm-vis-06/dp/2008008
+http://fr.farnell.com/multicomp/mc000036/bornier-ci-noir-5-08mm-vis-04/dp/2008006
+
+Mini usb b
+http://fr.farnell.com/te-connectivity/1734035-2/embase-mini-usb-2-0-type-b-cms/dp/2059755
+
+Connecteur 2x3 ISCP
+http://fr.farnell.com/harwin/m20-9980346/embase-2-rangees-3-voies/dp/1022231
+
+Connecteur NRF 2x4
+http://fr.farnell.com/multicomp/2214s-08sg-85/fiche-femelle-ci-2-rangee-vert/dp/1593489
+
+Transistor NPN equivalent 2n2222
+http://fr.farnell.com/nxp/mmbt2222a/transistor-npn-40v-0-6a-sot23/dp/1757934
+
+Max485
+http://fr.farnell.com/maxim-integrated-products/max485csa/transceiver-de-bus-soic8-485/dp/2519495
+
+Atsha204A
+http://fr.farnell.com/microchip/atsha204a-sshda-b/cryptoauthentication-i2c-soicneg8/dp/2674884
+
+Led rgb
+http://fr.farnell.com/multicomp/703-1028/led-rgb-3528-plcc/dp/2112143
+
+TL431
+http://fr.farnell.com/nxp/tl431bmfdt/ref-de-tension-shunt-2-495v-36v/dp/2095473
+
+atmega328p
+http://fr.farnell.com/atmel/atmega328p-au/micro-8-bits-avr-32k-flash-32tqfp/dp/1715486
+
+ft232rl
+http://fr.farnell.com/ftdi/ft232rl-reel/usb-vers-uart-ssop28-232/dp/1146032
+
+ams1117 equivalent
+http://fr.farnell.com/texas-instruments/tlv1117-33cdcyr/reg-de-tension-ldo-3-3v-0-8a-sot/dp/1494942
+
+Capa 0.1uF / 100nF
+http://fr.farnell.com/walsin/0805b104k500ct/condensateur-mlcc-x7r-0-1uf-50v/dp/2496944
+
+Capa 22pF
+http://fr.farnell.com/walsin/0805n220j500ct/condensateur-mlcc-np0-22pf-50v/dp/2497023
+
+Capa 10uF
+http://fr.farnell.com/avx/08053d106kat2a/condensateur-mlcc-x5r-10uf-25v/dp/1867958
+
+Res 10K
+http://fr.farnell.com/multicomp/mc01w0805110k/res-couche-epaisse-10k-1-0-1w/dp/9332391
+
+Res 33Ohm --> better 34.8Ohms
+http://fr.farnell.com/panasonic-electronic-components/erj6enf34r8v/res-couche-epaisse-34-8r-1-0-125w/dp/2303388
+
+Res 100Ohm
+http://fr.farnell.com/multicomp/mc01w08051100r/res-couche-epaisse-100r-1-0-1w/dp/9332375
+
+Res 20K
+http://fr.farnell.com/multicomp/mc01w0805120k/res-couche-epaisse-20k-1-0-1w/dp/9332774
+
+Res 120Ohm
+http://fr.farnell.com/multicomp/mc01w08051120r/res-couche-epaisse-120r-1-0-1w/dp/9332480
+
+Res 4.7K
+http://fr.farnell.com/multicomp/mc01w080514k7/res-couche-epaisse-4-7k-1-0-1w/dp/9333266
+
+Res 1.5K
+http://fr.farnell.com/multicomp/mc01w080511k5/res-couche-epaisse-1-5k-1-0-1w/dp/9332600
+
+Res 27.4K
+http://fr.farnell.com/multicomp/mc01w0805127k4/res-couche-epaisse-27-4k-1-0-1w/dp/2141869
+
+Crystal
+http://fr.farnell.com/abracon/abs07-120-32-768khz-t/quartz-32-768khz-6pf-3-2-x-1-5mm/dp/2467864

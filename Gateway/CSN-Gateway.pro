@@ -1,4 +1,4 @@
-update=29.11.2016 09:30:57
+update=30.11.2016 16:28:04
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName39=libs/mysensors_symbols-master/mysensors_radios
 LibName40=libs/mysensors_symbols-master/mysensors_regulators
 LibName41=libs/mysensors_symbols-master/mysensors_security
 LibName42=libs/mysensors_symbols-master/mysensors_sensors
+LibName43=libs/gateway
