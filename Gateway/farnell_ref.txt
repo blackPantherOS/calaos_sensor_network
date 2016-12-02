@@ -15,7 +15,7 @@ http://fr.farnell.com/multicomp/mc000038/bornier-ci-noir-5-08mm-vis-06/dp/200800
 http://fr.farnell.com/multicomp/mc000036/bornier-ci-noir-5-08mm-vis-04/dp/2008006
 
 Mini usb b
-http://fr.farnell.com/te-connectivity/1734035-2/embase-mini-usb-2-0-type-b-cms/dp/2059755
+http://fr.farnell.com/molex/67503-1020/embase-mini-usb-2-0-otg-type-b/dp/1125348
 
 Connecteur 2x3 ISCP
 http://fr.farnell.com/harwin/m20-9980346/embase-2-rangees-3-voies/dp/1022231
