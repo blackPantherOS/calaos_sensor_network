@@ -1,4 +1,4 @@
-update=01.12.2016 16:33:44
+update=04/12/2016 13:18:24
 version=1
 last_client=kicad
 [general]
@@ -69,8 +69,8 @@ LibName35=libs/mysensors_symbols-master/mysensors_logic
 LibName36=libs/mysensors_symbols-master/mysensors_mcu
 LibName37=libs/mysensors_symbols-master/mysensors_memories
 LibName38=libs/mysensors_symbols-master/mysensors_network
-LibName39=libs/mysensors_symbols-master/mysensors_radios
-LibName40=libs/mysensors_symbols-master/mysensors_regulators
-LibName41=libs/mysensors_symbols-master/mysensors_security
-LibName42=libs/mysensors_symbols-master/mysensors_sensors
+LibName39=libs/mysensors_symbols-master/mysensors_regulators
+LibName40=libs/mysensors_symbols-master/mysensors_security
+LibName41=libs/mysensors_symbols-master/mysensors_sensors
+LibName42=libs/mysensors_symbols-master/mysensors_radios
 LibName43=libs/gateway

@@ -37,10 +37,10 @@ LIBS:mysensors_logic
 LIBS:mysensors_mcu
 LIBS:mysensors_memories
 LIBS:mysensors_network
-LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
+LIBS:mysensors_radios
 LIBS:gateway
 LIBS:CSN-Gateway-base-cache
 EELAYER 25 0
@@ -280,11 +280,11 @@ SDA
 Text GLabel 3450 4500 2    60   Input ~ 0
 SCL
 Text GLabel 3450 4000 2    60   Input ~ 0
-A0
+A2
 Text GLabel 3450 4100 2    60   Input ~ 0
-A1
+A3
 Text GLabel 3450 4200 2    60   Input ~ 0
-BTN2
+RS485_TX
 $Comp
 L R R3
 U 1 1 58385879
@@ -579,14 +579,14 @@ RS485_TX
 Text GLabel 8900 5850 0    60   Input ~ 0
 RS485_RX
 Text GLabel 3450 5150 2    60   Input ~ 0
-RS485_TX
+BTN1
 Text GLabel 3450 5050 2    60   Input ~ 0
 RS485_RX
 $Comp
-L CONN_02X04 P8
+L CONN_02X04 RADIO1
 U 1 1 58394785
 P 4000 7000
-F 0 "P8" H 4000 7250 50  0000 C CNN
+F 0 "RADIO1" H 4000 7250 50  0000 C CNN
 F 1 "CONN_NRF24L01" H 4000 6750 50  0000 C CNN
 F 2 "mysensors_radios:NRF24L01" H 4000 5800 50  0001 C CNN
 F 3 "" H 4000 5800 50  0000 C CNN
@@ -634,7 +634,7 @@ CE
 Text GLabel 3450 4950 2    60   Input ~ 0
 IRQ
 Text GLabel 3450 5250 2    60   Input ~ 0
-RS485_EN
+RGB3
 $Comp
 L GND #PWR022
 U 1 1 583A146D
@@ -768,7 +768,7 @@ F 3 "" H 1000 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 3150 2    60   Input ~ 0
-BTN1
+RGB1
 $Comp
 L GND #PWR024
 U 1 1 583CE9C7
@@ -882,7 +882,7 @@ F 3 "" H 5900 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1350 4500 0    60   Input ~ 0
-A2
+A0
 $Comp
 L CP1 C17
 U 1 1 583D8C0A
@@ -1506,7 +1506,7 @@ Connection ~ 8300 2800
 Wire Wire Line
 	7950 2800 8300 2800
 Text GLabel 1350 4600 0    60   Input ~ 0
-A3
+A1
 Wire Wire Line
 	1350 4600 1450 4600
 Text GLabel 7800 2750 1    60   Input ~ 0
@@ -1565,7 +1565,7 @@ U 1 1 5840A703
 P 5750 1600
 F 0 "P1" H 5750 1950 50  0000 C CNN
 F 1 "CONN_02X06" H 5750 1250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x12" H 5750 400 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x12" H 5750 1150 50  0000 C CNN
 F 3 "" H 5750 400 50  0000 C CNN
 	1    5750 1600
 	1    0    0    -1  
@@ -1597,11 +1597,11 @@ Wire Wire Line
 Wire Wire Line
 	5400 1850 5500 1850
 Text GLabel 3450 4300 2    60   Input ~ 0
-RGB1
+RS485_EN
 Text GLabel 3450 5350 2    60   Input ~ 0
-RGB2
+BTN2
 Text GLabel 3450 5450 2    60   Input ~ 0
-RGB3
+RGB2
 Wire Wire Line
 	3350 5350 3450 5350
 Wire Wire Line
