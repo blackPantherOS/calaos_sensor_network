@@ -34,6 +34,7 @@ LIBS:ncp1402
 LIBS:tpl5110
 LIBS:tinkerforge
 LIBS:mysensors_radios
+LIBS:mysensors_sensors
 LIBS:temp-humidity-cache
 EELAYER 25 0
 EELAYER END
@@ -154,7 +155,7 @@ U 1 1 5835E96A
 P 5200 2500
 F 0 "Y1" H 5200 2600 50  0000 C CNN
 F 1 "12MHz" H 5200 2400 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_5032_2Pads" H 5200 2500 50  0001 C CNN
+F 2 "mysensors_obscurities:XTAL_3.2x1.5mm" H 5200 2500 50  0001 C CNN
 F 3 "" H 5200 2500 50  0000 C CNN
 	1    5200 2500
 	0    1    1    0   

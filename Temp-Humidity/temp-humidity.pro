@@ -1,4 +1,4 @@
-update=Samedi 03 décembre 2016 'à' 15:14:30
+update=Jeudi 08 décembre 2016 'à' 22:49:27
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=ncp1402
 LibName33=tpl5110
 LibName34=/Users/nicolasaguirre/Dev/kicad-libraries/tinkerforge
 LibName35=/Users/nicolasaguirre/Dev/kicad_libs/mysensors-kicad/mysensors_symbols/mysensors_radios
+LibName36=/Users/nicolasaguirre/Dev/kicad_libs/mysensors-kicad/mysensors_symbols/mysensors_sensors
