@@ -825,7 +825,7 @@ F 3 "" H 2300 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_BCE Q1
+L Q_NPN_BCEG Q1
 U 1 1 583D2BBC
 P 2750 1400
 F 0 "Q1" V 2950 1550 50  0000 R CNN
@@ -1166,8 +1166,6 @@ Wire Wire Line
 Wire Wire Line
 	700  6400 1450 6400
 Wire Wire Line
-	1750 6650 1750 7500
-Wire Wire Line
 	2550 6400 2550 6750
 Wire Wire Line
 	2300 6750 2800 6750
@@ -1192,7 +1190,6 @@ Wire Wire Line
 	1000 7250 1000 7350
 Wire Wire Line
 	1000 7350 2550 7350
-Connection ~ 1750 7350
 Connection ~ 1000 7250
 Wire Wire Line
 	2300 6750 2300 6850
@@ -1607,10 +1604,8 @@ Wire Wire Line
 Wire Wire Line
 	3350 4300 3450 4300
 Wire Wire Line
-	1900 6650 1900 6900
-Wire Wire Line
-	1900 6900 1750 6900
-Connection ~ 1750 6900
-Wire Wire Line
 	2200 6400 3150 6400
+Wire Wire Line
+	1850 6650 1850 7350
+Connection ~ 1850 7350
 $EndSCHEMATC

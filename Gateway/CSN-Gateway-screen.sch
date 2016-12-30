@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CSN-Gateway-screen-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -139,7 +140,7 @@ F 3 "" H 9150 5000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_RABG D1
+L LED_RABG-RESCUE-CSN-Gateway-screen-RESCUE-CSN-Gateway-screen D1
 U 1 1 5839ED83
 P 6150 4250
 F 0 "D1" H 6225 4600 50  0000 C CNN
@@ -240,7 +241,7 @@ NoConn ~ 7100 1900
 NoConn ~ 7100 2000
 NoConn ~ 7100 2100
 $Comp
-L USB_OTG P1
+L USB_OTG-RESCUE-CSN-Gateway-screen P1
 U 1 1 583B4C2E
 P 4500 1800
 F 0 "P1" H 4825 1675 50  0000 C CNN
@@ -560,11 +561,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 3350 3700 3450
 Text GLabel 2850 3250 2    60   Input ~ 0
-TXO
+RXI
 Wire Wire Line
 	2750 3250 2850 3250
 Text GLabel 2850 3450 2    60   Input ~ 0
-RXI
+TXO
 Wire Wire Line
 	2750 3450 2850 3450
 Text GLabel 2850 3550 2    60   Input ~ 0

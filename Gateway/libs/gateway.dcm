@@ -9,4 +9,9 @@ D Bornier a vis 6x
 K connector
 $ENDCMP
 #
+$CMP Q_NPN_BCE
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
 #End Doc Library
