@@ -21,7 +21,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -40,7 +40,7 @@
     (last_trace_width 0.25)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
-    (zone_45_only no)
+    (zone_45_only yes)
     (trace_min 0.2)
     (segment_width 0.2)
     (edge_width 0.15)
@@ -1143,6 +1143,14 @@
       (xy 8.509 -0.149087)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_arc (start 127.762 122) (end 127.762 120.984) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 127.762 120.984) (end 123.19 120.984) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 584580F5))
+  (gr_arc (start 123.19 122) (end 122.174 122) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 584580F4))
+  (gr_line (start 141.5 122) (end 128.778 122) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5845809C))
+  (gr_line (start 128.778 64) (end 141.5 64) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 123.19 65.024) (end 127.762 65.024) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 123.19 64.008) (end 123.19 65.024) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 127.762 64.008) (end 128.778 64.008) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_text GND (at 121.65 73.91 270) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
@@ -1195,9 +1203,9 @@
     (effects (font (size 0.8 0.8) (thickness 0.1)))
   )
   (gr_line (start 109.5 122) (end 109.5 64) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 141.5 122) (end 109.5 122) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 122.174 122) (end 109.5 122) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 141.5 64) (end 141.5 122) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 109.5 64) (end 141.5 64) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 109.5 64) (end 122.174 64) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 127.274 95.25) (end 124.714 95.25) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 123.971 95.993) (end 123.971 97.326) (width 0.25) (layer B.Cu) (net 1) (tstamp 58422CAD))
@@ -1401,7 +1409,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 141.224 121.412) (xy 109.728 121.412) (xy 109.728 64.262) (xy 141.224 64.262)
+        (xy 141.224 120.7135) (xy 109.728 120.7135) (xy 109.728 65.278) (xy 141.224 65.278)
       )
     )
     (filled_polygon
@@ -1576,7 +1584,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 141.224 121.412) (xy 109.728 121.412) (xy 109.728 64.262) (xy 141.224 64.262)
+        (xy 141.224 120.7135) (xy 109.728 120.7135) (xy 109.728 65.278) (xy 141.224 65.278)
       )
     )
     (filled_polygon
