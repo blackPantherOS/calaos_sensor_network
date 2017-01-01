@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:temp-humidity-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -237,7 +238,7 @@ SCK
 Text Label 8950 2100 2    60   ~ 0
 RESET
 $Comp
-L CONN_01X06 P3
+L CONN_01X06-RESCUE-temp-humidity P3
 U 1 1 58361147
 P 9600 3200
 F 0 "P3" H 9600 3550 50  0000 C CNN
