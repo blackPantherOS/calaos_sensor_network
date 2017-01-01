@@ -561,11 +561,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 3350 3700 3450
 Text GLabel 2850 3250 2    60   Input ~ 0
-RXI
+TXO
 Wire Wire Line
 	2750 3250 2850 3250
 Text GLabel 2850 3450 2    60   Input ~ 0
-TXO
+RXI
 Wire Wire Line
 	2750 3450 2850 3450
 Text GLabel 2850 3550 2    60   Input ~ 0
