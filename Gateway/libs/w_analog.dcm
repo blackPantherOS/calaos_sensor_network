@@ -355,6 +355,11 @@ D Programmable shunt regulator
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Regolatori/FCD_TL431.pdf
 $ENDCMP
 #
+$CMP TL431mirror-pinning
+D Programmable shunt regulator
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Regolatori/FCD_TL431.pdf
+$ENDCMP
+#
 $CMP TLV431-D
 D Low-Voltage adjustable precision shunt regulator, SOIC-8 package
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Regolatori/TI_TLV431.pdf

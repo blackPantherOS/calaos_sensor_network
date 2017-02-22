@@ -1,11 +1,11 @@
-Connecteur femele a souder 8 contact
-http://fr.farnell.com/amphenol/t821108a1s100ceu/embase-vertical-2-54mm-8voies/dp/2215303
+Connecteur femele a souder 12 contact
+http://fr.farnell.com/amphenol/t821112a1s100ceu/embase-vertical-2-54mm-12voies/dp/2215306
 
-Connecteur male 8 contact pour nappe
-http://fr.farnell.com/amphenol/t812108a101ceu/femelle-idc-anti-traction-2-54mm/dp/2215246
+Connecteur male 12 contact pour nappe
+http://fr.farnell.com/amphenol/t812112a100ceu/femelle-idc-2-54mm-12voies/dp/2215233
 
 Cable nappe:
-http://fr.farnell.com/3m/3365-08/cable-en-nappe-8-voies-au-metre/dp/2064504
+http://fr.farnell.com/3m/3625-12/cable-gris-12w-1mm-28awg-au-metre/dp/2065099
 
 Boitier 2M rail din
 http://fr.farnell.com/multicomp/mc001141/boite-dinrail-module-abs-pc-gris/dp/2544972?MER=bn_search_1TP_SearchNB_2
@@ -81,4 +81,13 @@ Res 27.4K
 http://fr.farnell.com/multicomp/mc01w0805127k4/res-couche-epaisse-27-4k-1-0-1w/dp/2141869
 
 Crystal
-http://fr.farnell.com/abracon/abs07-120-32-768khz-t/quartz-32-768khz-6pf-3-2-x-1-5mm/dp/2467864
+http://fr.farnell.com/txc/7a-16-000maaj-t/xtal-16-000mhz-18pf-smd-5-0x3/dp/1841946
+
+Capa 24pF 0603!!
+http://fr.farnell.com/multicomp/mc0603n240j500ct/condensateur-mlcc-c0g-24pf-50v/dp/2627462
+
+Res 1K
+http://fr.farnell.com/multicomp/mcwr08x1001ftl/res-couche-epaisse-1k-1-0-125w/dp/2447587RL
+
+Capa tantale 10uF
+http://fr.farnell.com/avx/f981c106msaas1/cond-tant-polymere-10uf-16v-0805/dp/2469247

@@ -64,7 +64,7 @@ U 1 1 582C3E6D
 P 2350 4250
 F 0 "IC1" H 1600 5500 50  0000 L BNN
 F 1 "ATMEGA328-A" H 2750 2850 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 2350 4250 50  0000 C CIN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 2350 4250 50  0001 C CIN
 F 3 "" H 2350 4250 50  0000 C CNN
 	1    2350 4250
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 582C40FA
 P 4150 3800
 F 0 "Y1" H 4150 3950 50  0000 C CNN
 F 1 "Crystal" H 4150 3650 50  0000 C CNN
-F 2 "mysensors_obscurities:XTAL_3.2x1.5mm" H 4150 3800 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm" H 4150 3800 50  0001 C CNN
 F 3 "" H 4150 3800 50  0000 C CNN
 	1    4150 3800
 	0    1    1    0   
@@ -160,24 +160,24 @@ $EndComp
 $Comp
 L R R1
 U 1 1 582C58A6
-P 4150 4350
-F 0 "R1" V 4230 4350 50  0000 C CNN
-F 1 "10K" V 4150 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4080 4350 50  0001 C CNN
-F 3 "" H 4150 4350 50  0000 C CNN
-	1    4150 4350
+P 4300 4350
+F 0 "R1" V 4380 4350 50  0000 C CNN
+F 1 "10K" V 4300 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4230 4350 50  0001 C CNN
+F 3 "" H 4300 4350 50  0000 C CNN
+	1    4300 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L VCC #PWR05
 U 1 1 582C58DF
-P 4450 4350
-F 0 "#PWR05" H 4450 4200 50  0001 C CNN
-F 1 "VCC" H 4450 4500 50  0000 C CNN
-F 2 "" H 4450 4350 50  0000 C CNN
-F 3 "" H 4450 4350 50  0000 C CNN
-	1    4450 4350
-	0    1    1    0   
+P 4700 4250
+F 0 "#PWR05" H 4700 4100 50  0001 C CNN
+F 1 "VCC" H 4700 4400 50  0000 C CNN
+F 2 "" H 4700 4250 50  0000 C CNN
+F 3 "" H 4700 4250 50  0000 C CNN
+	1    4700 4250
+	1    0    0    -1  
 $EndComp
 Text GLabel 3450 4750 2    60   Input ~ 0
 RXI
@@ -233,7 +233,7 @@ U 1 1 582C8361
 P 8400 900
 F 0 "P3" H 8400 1100 50  0000 C CNN
 F 1 "CONN_ICSP" H 8400 700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 8400 -300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 8400 -300 50  0001 C CNN
 F 3 "" H 8400 -300 50  0000 C CNN
 	1    8400 900 
 	1    0    0    -1  
@@ -268,7 +268,7 @@ F 3 "" H 8800 750 50  0000 C CNN
 	1    8800 750 
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 4600 2    60   Input ~ 0
+Text GLabel 5000 4600 2    60   Input ~ 0
 RST
 Text GLabel 3450 3450 2    60   Input ~ 0
 MOSI
@@ -320,12 +320,12 @@ F 3 "" H 9100 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L CP1 C5
 U 1 1 583859DA
 P 9100 3550
 F 0 "C5" H 9125 3650 50  0000 L CNN
 F 1 "10uF" H 9125 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9138 3400 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 9138 3400 50  0001 C CNN
 F 3 "" H 9100 3550 50  0000 C CNN
 	1    9100 3550
 	1    0    0    -1  
@@ -390,12 +390,12 @@ F 3 "" H 10500 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L CP1 C7
 U 1 1 5838782D
 P 10500 3550
 F 0 "C7" H 10525 3650 50  0000 L CNN
 F 1 "10uF" H 10525 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10538 3400 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 10538 3400 50  0001 C CNN
 F 3 "" H 10500 3550 50  0000 C CNN
 	1    10500 3550
 	1    0    0    -1  
@@ -460,12 +460,12 @@ F 3 "" H 10500 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L CP1 C6
 U 1 1 58387BF2
 P 10500 1750
 F 0 "C6" H 10525 1850 50  0000 L CNN
 F 1 "10uF" H 10525 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10538 1600 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 10538 1600 50  0001 C CNN
 F 3 "" H 10500 1750 50  0000 C CNN
 	1    10500 1750
 	1    0    0    -1  
@@ -502,7 +502,7 @@ U 1 1 583896CC
 P 9450 5550
 F 0 "U1" H 9150 5900 50  0000 L CNN
 F 1 "MAX485CSA" H 9550 5900 50  0000 L CNN
-F 2 "Power_Integrations:SO-8" H 9450 5550 50  0000 C CIN
+F 2 "Power_Integrations:SO-8" H 9450 5550 50  0001 C CIN
 F 3 "" H 9450 5550 50  0000 C CNN
 	1    9450 5550
 	1    0    0    -1  
@@ -664,7 +664,7 @@ U 1 1 583A24B0
 P 2300 7000
 F 0 "C9" H 2325 7100 50  0000 L CNN
 F 1 "10uF" H 2325 6900 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 2338 6850 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 2338 6850 50  0001 C CNN
 F 3 "" H 2300 7000 50  0000 C CNN
 	1    2300 7000
 	1    0    0    -1  
@@ -675,7 +675,7 @@ U 1 1 583A3B3C
 P 750 7000
 F 0 "C10" H 775 7100 50  0000 L CNN
 F 1 "10uF" H 775 6900 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 788 6850 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 788 6850 50  0001 C CNN
 F 3 "" H 750 7000 50  0000 C CNN
 	1    750  7000
 	1    0    0    -1  
@@ -741,7 +741,7 @@ U 1 1 583B1742
 P 9650 5050
 F 0 "C13" H 9675 5150 50  0000 L CNN
 F 1 "10uF" H 9675 4950 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 9688 4900 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 9688 4900 50  0001 C CNN
 F 3 "" H 9650 5050 50  0000 C CNN
 	1    9650 5050
 	0    -1   -1   0   
@@ -782,7 +782,7 @@ F 3 "" H 1000 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL431-RESCUE-CSN-Gateway-base D2
+L TL431mirror-pinning D2
 U 1 1 583D26E5
 P 2750 1950
 F 0 "D2" V 2650 1850 40  0000 C CNN
@@ -890,7 +890,7 @@ U 1 1 583D8C0A
 P 3650 1600
 F 0 "C17" H 3675 1700 50  0000 L CNN
 F 1 "10uF" H 3675 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3688 1450 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 3688 1450 50  0001 C CNN
 F 3 "" H 3650 1600 50  0000 C CNN
 	1    3650 1600
 	1    0    0    -1  
@@ -966,11 +966,6 @@ Connection ~ 1300 3250
 Wire Wire Line
 	1450 3150 1300 3150
 Connection ~ 1300 3150
-Wire Wire Line
-	3350 4600 4050 4600
-Wire Wire Line
-	3900 4600 3900 4350
-Connection ~ 3900 4600
 Wire Wire Line
 	3450 4750 3350 4750
 Wire Wire Line
@@ -1161,9 +1156,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 5250 3450 5250
 Wire Wire Line
-	4300 4350 4450 4350
+	4450 4350 4700 4350
 Wire Wire Line
-	3900 4350 4000 4350
+	4050 4350 4150 4350
 Wire Wire Line
 	700  6400 1450 6400
 Wire Wire Line
@@ -1443,12 +1438,12 @@ F 3 "" H 8300 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L CP1 C20
 U 1 1 58407732
 P 8300 3550
 F 0 "C20" H 8325 3650 50  0000 L CNN
 F 1 "10uF" H 8325 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8338 3400 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand" H 8338 3400 50  0001 C CNN
 F 3 "" H 8300 3550 50  0000 C CNN
 	1    8300 3550
 	1    0    0    -1  
@@ -1561,7 +1556,7 @@ U 1 1 5840A703
 P 5750 1600
 F 0 "P1" H 5750 1950 50  0000 C CNN
 F 1 "CONN_02X06" H 5750 1250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x12" H 5750 1150 50  0000 C CNN
+F 2 "Connectors:IDC_Header_Straight_12pins" H 5750 1150 50  0001 C CNN
 F 3 "" H 5750 400 50  0000 C CNN
 	1    5750 1600
 	1    0    0    -1  
@@ -1609,4 +1604,24 @@ Wire Wire Line
 Wire Wire Line
 	1850 6650 1850 7500
 Connection ~ 1850 7350
+Wire Wire Line
+	4050 4600 4050 4350
+Connection ~ 4050 4600
+Wire Wire Line
+	4700 4350 4700 4250
+$Comp
+L C C2
+U 1 1 58AD532D
+P 4550 4600
+F 0 "C2" H 4575 4700 50  0000 L CNN
+F 1 "0.1uF" H 4575 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4588 4450 50  0001 C CNN
+F 3 "" H 4550 4600 50  0000 C CNN
+	1    4550 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 4600 4400 4600
+Wire Wire Line
+	4700 4600 5000 4600
 $EndSCHEMATC
