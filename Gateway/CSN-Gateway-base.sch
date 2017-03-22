@@ -243,7 +243,7 @@ MISO
 Text GLabel 8000 900  0    60   Input ~ 0
 SCK
 Text GLabel 8000 1000 0    60   Input ~ 0
-RST
+RRST
 Text GLabel 8800 900  2    60   Input ~ 0
 MOSI
 $Comp
@@ -1605,7 +1605,7 @@ Wire Wire Line
 	1850 6650 1850 7500
 Connection ~ 1850 7350
 Wire Wire Line
-	4050 4600 4050 4350
+	4050 4350 4050 4850
 Connection ~ 4050 4600
 Wire Wire Line
 	4700 4350 4700 4250
@@ -1624,4 +1624,8 @@ Wire Wire Line
 	3350 4600 4400 4600
 Wire Wire Line
 	4700 4600 5000 4600
+Text GLabel 5000 4850 2    60   Input ~ 0
+RRST
+Wire Wire Line
+	4050 4850 5000 4850
 $EndSCHEMATC

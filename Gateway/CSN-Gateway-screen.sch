@@ -200,9 +200,9 @@ F 3 "" H 4400 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 1300 2    60   Input ~ 0
-RXI
-Text GLabel 7250 1400 2    60   Input ~ 0
 TXO
+Text GLabel 7250 1400 2    60   Input ~ 0
+RXI
 NoConn ~ 5900 2000
 NoConn ~ 5900 2100
 NoConn ~ 7100 2700
